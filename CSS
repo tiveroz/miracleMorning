@@ -1,0 +1,20 @@
+* {
+  font-family: 'Lora', serif;
+  margin: auto;
+  height: 0;
+  text-align: center;
+  color: #383838;
+}
+
+h4 {
+  font-size: 200%;
+}
+
+body {
+  background-color: #fffaf2;
+}
+
+.container {
+  width: 50%;
+  padding-top: 150px;
+}
