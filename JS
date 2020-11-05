@@ -1,0 +1,13 @@
+$(document).ready(function(){
+  
+  $(function(){
+    
+    $('.container .slides:gt(0)').hide();
+    setInterval(function(){
+      $('.container :first-child').fadeOut(2000).next('.slides').fadeIn(2000)
+      .end().appendTo('.container');
+  }, 7000);
+    
+  });
+  
+});
